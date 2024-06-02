@@ -1,0 +1,31 @@
+a {
+    text-decoration: none;
+    background-color: rgb(180, 180, 180);
+    color: aliceblue;
+    padding: 10px 20px;
+    font-weight: bold;
+    border:solid rgb(123, 123, 123) 3px;
+    border-radius: 10px;
+    transition:all ease 0.3s;
+}
+
+.btn-a:hover{
+    color: #fff;
+    background-color: orange;
+}
+
+
+body {
+    background-image: radial-gradient(
+        
+        pink 20%,
+        transparent 20% 
+        ),
+        radial-gradient(
+            lightpink 20%,
+        transparent 20% 
+        ) 
+    ;
+    background-position: 0 0, 10px 10px;
+    background-size: 20px 20px
+}
